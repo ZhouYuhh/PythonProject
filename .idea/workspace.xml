@@ -2,75 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88835d73-b9e9-434c-8285-6521e7002bf7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/MyRestaurant.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Login/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Login/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Login/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Login/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Login/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Login/migrations/0002_delete_user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Login/migrations/0003_auto_20190329_1506.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Login/migrations/0004_auto_20190329_1506.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Login/migrations/0005_restaurant_name_ave_rate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Login/migrations/0006_auto_20190423_1607.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Login/migrations/0007_auto_20190426_1643.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Login/migrations/0008_auto_20190426_1713.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Login/migrations/0009_auto_20190427_1730.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Login/migrations/0010_auto_20190504_2237.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Login/migrations/0011_image.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Login/migrations/0012_delete_image.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Login/migrations/0013_restaurant_name_img.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Login/migrations/0014_auto_20190530_1712.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Login/migrations/0015_auto_20190530_1715.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Login/migrations/0016_restaurant_name_category.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Login/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Login/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Login/templates/Login/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Login/templates/Login/comment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Login/templates/Login/details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Login/templates/Login/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Login/templates/Login/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Login/templates/Login/newrest.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Login/templates/Login/rate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Login/templates/Login/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Login/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Login/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Login/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyRestaurant/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyRestaurant/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyRestaurant/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyRestaurant/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/img/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/img/1_RtcaSsL.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/img/1_hPKeh5f.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/js/npm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/blog-post.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/image/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/image/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/image/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/image/cover.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/jquery-3.3.1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/image/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/image/cover.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -156,6 +92,17 @@
               <item name="MyRestaurant" type="462c0819:PsiDirectoryNode" />
               <item name="media" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MyRestaurant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyRestaurant" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyRestaurant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyRestaurant" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="image" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -166,7 +113,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="E:/Git/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Viberr-master" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
@@ -240,11 +187,13 @@
       <workItem from="1559198739613" duration="7155000" />
       <workItem from="1559266730173" duration="8222000" />
       <workItem from="1559290351454" duration="2999000" />
+      <workItem from="1561018427346" duration="214000" />
+      <workItem from="1561018985470" duration="2215000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85421000" />
+    <option name="totallyTimeSpent" value="87850000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -258,7 +207,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22117962" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22654155" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -272,7 +221,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.25301206" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49932975" visible="true" weight="0.2533512" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49932975" visible="true" weight="0.2533512" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32931727" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -423,6 +372,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Login/apps.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/img/1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/img/1_hPKeh5f.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/image/cover.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/image/background.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/img/1_RtcaSsL.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/image/1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/image/2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/image/3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/image/4.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>
