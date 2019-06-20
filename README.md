@@ -13,4 +13,4 @@ password: 123
 
 
 
-You can click on the view details button to enter a specific restaurant.
+You can click on the view details button to enter a specific restaurant.You can also filter the restaurant by category by clicking the category button in the top left corner.You can also add restaurant by clicking the add restaurant button in the top left corner.
