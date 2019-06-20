@@ -1,0 +1,65 @@
+{% extends 'Login/base.html' %}
+{% load staticfiles %}
+{% block title %}Home page{% endblock %}
+{% block css %}<link href="{% static 'css/login.css' %}" rel="stylesheet"/>{% endblock %}
+{% block content %}
+    <div class="row">
+        <div class="col-sm-12">
+            <h3>hello,{{ request.session.username }}! Welcome!</h3>
+            <a href="/new_rest" class="btn btn-primary">Add Restaurant</a>
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Category
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                    <li>
+                        <a href="/index/">All</a>
+                    </li>
+                    <li>
+                        <a href="/index/Chinese/">Chinese</a>
+                    </li>
+                    <li>
+                        <a href="/index/Korean">Korean</a>
+                    </li>
+                    <li>
+                        <a href="/index/Japanese">Japanese</a>
+                    </li>
+                    <li>
+                        <a href="/index/Western">Western</a>
+                    </li>
+                    <li>
+                        <a href="/index/Meat">Meat</a>
+                    </li>
+                    <li>
+                        <a href="/index/Chicken">Chicken</a>
+                    </li>
+                    <li>
+                        <a href="/index/Seafood">Seafood</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-sm-12">
+            <br/>
+        </div>
+        {% for rest in rest_list %}
+                <div class="col-sm-4 col-lg-2">
+                    <div class="thumbnail">                   
+                        <div>
+                            <img src="{{ rest.img.url }}" class="img-responsive">
+                        </div>
+                        <div class="caption">
+                            <h2>{{ rest.Rest_name }}</h2>
+                            <h4><small>Address:{{ rest.address }}</small></h4>
+                            <h4>Category:{{ rest.category }}</h4>
+                            <h4>Rate:{{ rest.ave_rate }}</h4>
+                            <!-- View Comments --> 
+                            <a href="{% url 'Login:details' rest.Rest_id %}" class="btn btn-primary btn-sm" role="button">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            {% cycle '' '' '' '' '' '<div class="clearfix visible-lg"></div>' %}
+        {% endfor %}       
+    </div>
+{% endblock %}
+

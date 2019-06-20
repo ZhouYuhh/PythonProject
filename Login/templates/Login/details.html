@@ -1,0 +1,70 @@
+{% extends 'Login/base.html' %}
+{% load staticfiles %}
+{% block title %}Details{% endblock %}
+{% block css %}<link href="{% static 'css/blog-post.css' %}" rel="stylesheet"/>{% endblock %}
+{% block content %}
+<div class="container-fluid songs-container">
+
+    <div class="row">
+
+        <!-- Left Restaurant Info -->
+         <div class="col-sm-4 col-md-3">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <img src="{{ rest.img.url }}" class="img-responsive">
+                    <h1>{{ rest.Rest_name }}</h1>
+                    <h1><small>Address:{{ rest.address }}</small></h1>
+                    <h4>Category:{{ rest.category }}</h4>
+                    <h4>Rate:{{ rest.ave_rate }}</h4>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Restaurant Info -->
+        <div class="col-sm-8 col-md-9">
+
+            <ul class="nav nav-pills" style="margin-bottom: 10px;">
+                <li role="presentation" class="active"><a href="#">View All Review</a></li>
+                <li role="presentation"><a href="{% url 'Login:rate' rest.Rest_id %}">Post Review</a></li>
+            </ul>
+
+            <div class="panel panel-default">
+                <div class="panel-body">
+
+                    <h3>All Review</h3>
+
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th>Content</th>
+                            <th>View</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {% for review in reviewList %}
+                            <tr>
+                                <td>{{ review.content }}</td>
+                                <td>
+                                    <a href="/details/{{ rest.Rest_id }}/review/{{ review.reviewId }}">
+                                        <button type="button" class="btn btn-success btn-xs">
+                                                <span class="glyphicon glyphicon-play"></span>View
+                                        </button>
+                                    </a>
+                                </td>
+                            </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+</div>
+
+{% endblock %}
+

@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="88835d73-b9e9-434c-8285-6521e7002bf7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/MyRestaurant.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/migrations/0002_delete_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/migrations/0003_auto_20190329_1506.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/migrations/0004_auto_20190329_1506.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/migrations/0005_restaurant_name_ave_rate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/migrations/0006_auto_20190423_1607.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/migrations/0007_auto_20190426_1643.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/migrations/0008_auto_20190426_1713.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/migrations/0009_auto_20190427_1730.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/migrations/0010_auto_20190504_2237.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/migrations/0011_image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/migrations/0012_delete_image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/migrations/0013_restaurant_name_img.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/migrations/0014_auto_20190530_1712.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/migrations/0015_auto_20190530_1715.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/migrations/0016_restaurant_name_category.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/templates/Login/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/templates/Login/comment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/templates/Login/details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/templates/Login/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/templates/Login/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/templates/Login/newrest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/templates/Login/rate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/templates/Login/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyRestaurant/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyRestaurant/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyRestaurant/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyRestaurant/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/img/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/img/1_RtcaSsL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/img/1_hPKeh5f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/blog-post.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/image/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/image/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/image/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/image/cover.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/jquery-3.3.1.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="b7467407-6b20-49f7-ab7f-8793a010fe0a" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/MyRestaurant/urls.py" />
+        <option value="$PROJECT_DIR$/static/css/blog-post.css" />
+        <option value="$PROJECT_DIR$/Login/templates/Login/a.html" />
+        <option value="$PROJECT_DIR$/Login/templates/Login/base.html" />
+        <option value="$PROJECT_DIR$/MyRestaurant/settings.py" />
+        <option value="$PROJECT_DIR$/Login/admin.py" />
+        <option value="$PROJECT_DIR$/Login/forms.py" />
+        <option value="$PROJECT_DIR$/Login/models.py" />
+        <option value="$PROJECT_DIR$/Login/templates/Login/newrest.html" />
+        <option value="$PROJECT_DIR$/Login/views.py" />
+        <option value="$PROJECT_DIR$/Login/urls.py" />
+        <option value="$PROJECT_DIR$/Login/templates/Login/details.html" />
+        <option value="$PROJECT_DIR$/Login/templates/Login/rate.html" />
+        <option value="$PROJECT_DIR$/Login/templates/Login/comment.html" />
+        <option value="$PROJECT_DIR$/Login/templates/Login/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="85" />
+    <option name="y" value="25" />
+    <option name="width" value="1750" />
+    <option name="height" value="1030" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MyRestaurant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyRestaurant" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyRestaurant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyRestaurant" type="462c0819:PsiDirectoryNode" />
+              <item name="Login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyRestaurant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyRestaurant" type="462c0819:PsiDirectoryNode" />
+              <item name="Login" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyRestaurant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyRestaurant" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="E:/Git/Git/bin/git.exe" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\PyProject\MyRestaurant\static\css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="MyRestaurant" type="Python.DjangoServer" factoryName="Django server">
+      <module name="MyRestaurant" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="88835d73-b9e9-434c-8285-6521e7002bf7" name="Default Changelist" comment="" />
+      <created>1555682126777</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555682126777</updated>
+      <workItem from="1555682129784" duration="826000" />
+      <workItem from="1555745126180" duration="243000" />
+      <workItem from="1555748841066" duration="471000" />
+      <workItem from="1555919125771" duration="336000" />
+      <workItem from="1555919478402" duration="44000" />
+      <workItem from="1555985615225" duration="17846000" />
+      <workItem from="1556251603208" duration="9630000" />
+      <workItem from="1556344372525" duration="1925000" />
+      <workItem from="1556357348785" duration="2035000" />
+      <workItem from="1556423031432" duration="635000" />
+      <workItem from="1556500486307" duration="18000" />
+      <workItem from="1556500702150" duration="12212000" />
+      <workItem from="1556959129554" duration="11165000" />
+      <workItem from="1557121870179" duration="103000" />
+      <workItem from="1558677552226" duration="2596000" />
+      <workItem from="1558680167910" duration="6960000" />
+      <workItem from="1559198739613" duration="7155000" />
+      <workItem from="1559266730173" duration="8222000" />
+      <workItem from="1559290351454" duration="2999000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="85421000" />
+  </component>
+  <component name="TodoView" selected-index="1">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22117962" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32931727" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.25301206" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49932975" visible="true" weight="0.2533512" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32931727" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/static/css/blog-post.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" column="24" selection-start-line="24" selection-start-column="4" selection-end-line="25" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/templates/Login/a.html" />
+    <entry file="file://$PROJECT_DIR$/media/img/cover_xkbYDBs.jpg" />
+    <entry file="file://$PROJECT_DIR$/media/img/cover.jpg" />
+    <entry file="file://$PROJECT_DIR$/MyRestaurant/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="128" column="21" selection-start-line="128" selection-start-column="21" selection-end-line="128" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyRestaurant/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#646#678#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/templates/Login/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="12" lean-forward="true" selection-end-line="32" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/templates/Login/newrest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-66">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/templates/Login/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" lean-forward="true" selection-start-column="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/templates/Login/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/templates/Login/comment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/templates/Login/details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/templates/Login/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="52" column="73" selection-start-line="52" selection-start-column="73" selection-end-line="52" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/templates/Login/rate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>

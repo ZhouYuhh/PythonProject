@@ -1,0 +1,101 @@
+{% extends 'Login/base.html' %}
+{% load staticfiles %}
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+{% block title %}Comment{% endblock %}
+{% block css %}<link href="{% static 'css/blog-post.css' %}" rel="stylesheet"/>{% endblock %}
+{% block content %}
+<div class="container-fluid songs-container">
+
+    <div class="row">
+
+        <!-- Left Restaurant Info -->
+        <div class="col-sm-4 col-md-3">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <img src="{{ rest.img.url }}" class="img-responsive">
+                    <h1>{{ rest.Rest_name }}</h1>
+                    <h1><small>Address:{{ rest.address }}</small></h1>
+                    <h4>Category:{{ rest.category }}</h4>
+                    <h4>Rate:{{ rest.ave_rate }}</h4>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Restaurant Info -->
+        <div class="col-sm-8 col-md-9">
+
+            <ul class="nav nav-pills" style="margin-bottom: 10px;">
+                <li role="presentation" class="active"><a href="{% url 'Login:details' rest.Rest_id %}">View All Review</a></li>
+            </ul>
+
+            <div class="panel panel-default">
+                <div class="panel-body">
+
+                    <!-- Post Content Column -->
+                      <div class="col-lg-8">
+
+                        <!-- Post Content -->
+                        <p class="lead">
+                            Review content:
+                        </p>
+                        <p class="lead">
+                            {{ reviewObj.content }}
+                        </p>
+                        <hr>
+
+                        <!-- Comments Form -->
+                        <div class="card my-4">
+                          <h5 class="card-header">Leave a Comment:</h5>
+                          <div class="card-body">
+                            <form action="/details/{{ rest.Rest_id }}/review/{{ reviewObj.reviewId }}/" method="post">
+                                {% csrf_token %}
+                              <div class="form-group">
+                                <textarea class="form-control" rows="3" name="c"></textarea>
+                              </div>
+                              <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+                          </div>
+                        </div>
+
+                         <!--Comment List -->
+                          <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+                              <!-- Contenedor Principal -->
+                          <div class="comments-container">
+                              <h1>Comment </h1>
+
+                              <ul id="comments-list" class="comments-list">
+                                  {% for comment in commentList %}
+                                        <li>
+                                            <div class="comment-main-level">
+                                                <!-- Avatar -->
+                                                <div class="comment-avatar"><img src="http://i9.photobucket.com/albums/a88/creaticode/avatar_1_zps8e1c80cd.jpg" alt=""></div>
+                                                <!-- Contenedor del Comentario -->
+                                                <div class="comment-box">
+                                                    <div class="comment-head">
+                                                        <h6 class="comment-name"><a href="http://creaticode.com/blog">Username:{{ comment.commentUserName }}</a></h6>
+                                                        <i class="fa fa-reply"></i>
+                                                        <i class="fa fa-heart"></i>
+                                                    </div>
+                                                    <div class="comment-content">
+                                                        {{ comment.content }}
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                  {% endfor %}
+                                    </ul>
+                                </div>
+                      </div>
+                </div>
+            <!--review content-->
+            </div>
+        <!--right restaurant info-->
+        </div>
+    <!-- row-->
+    </div>
+</div>
+
+{% endblock %}
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
